@@ -22,6 +22,7 @@ Click on Series Merge. Scan library then select works to merge. Click Merge Sele
 
 ## Issues
 
+- Log is completely broken because the code expects a value returned from a Calibre function but I don't think that function returns anything. Will need to read docs more to fix.
 - Calibre cannot deal with multiseries works. Must implement a feature to support or manually sift through broken series to catch multiseries works. 
 - Does not detect already merged works. Will create duplicates if run multiple times.
 - Cannot fetch missing works unlike fanficfare.
@@ -32,3 +33,5 @@ Click on Series Merge. Scan library then select works to merge. Click Merge Sele
 - No icon.
 - Does not respect EpubMerge options, hardcoded for one set of options (combine tags, combine descriptions)
 - Date added inherits from the first book in the series.
+
+
